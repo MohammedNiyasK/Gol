@@ -1,0 +1,97 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_left{
+    margin: 133px 0 0 70px;
+}
+
+.visit {
+    width: 197px;
+    height: 64px;
+    background-color: #bce9f7;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit p {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.visit img {
+    width: 35px;
+    height: 35px;
+    margin-left: 46px;
+}
+
+.title {
+    margin-top: 48px;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--gray-color);
+    margin-bottom: 64px;
+}
+
+.title span {
+    color: var(--primary-color);
+}
+
+.btn {
+    width: 174px;
+    height: 64px;
+    background-color: var(--white-color);
+    padding: 16px 32px;
+    border: 2px solid #3282AD;
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-size: 16px;
+
+}
+
+.banner_right{
+    width: 879px;
+   height: 874px;
+    background-image: url('../../assets/HomeMap.png');
+    margin-right: 0;
+}
+
+.banner_right img {
+    width: 490px;
+    height: 477px;
+    margin-left: 320px;
+    margin-top: 47px;
+}
+
+@media screen and (max-width: 720px) {
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 30px;
+}
+.banner_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: contain;
+}
+.banner_right img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 50px;
+   
+}
+  }

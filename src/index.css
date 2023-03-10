@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200&display=swap');
+
+:root {
+ --primary-color:#3282AD;
+ --white-color:#FFFFFF;
+ --black-color:#112211;
+ --gray-color:#3A3A3A;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+
+
+
+
+

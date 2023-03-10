@@ -1,0 +1,92 @@
+.container{
+    margin: 152px 70px 88px 70px;
+    max-width: 1226px;
+    min-height: 228px;
+    box-shadow: rgba(141, 198, 211, 0.15) 0px 5px 15px;
+    border-radius: 16px;
+    padding:48px, 24px, 48px, 24px ;
+    
+}
+
+.container p {
+    padding: 16px 24px 32px 24px;
+}
+
+.booking{
+    display: flex;
+    justify-content: space-around;
+}
+
+.from,.return,.depart,.passenger{
+   position: relative;
+}
+
+.from input,.return input,.depart input,.passenger input{
+    width: 322px;
+    height: 66px;
+    border: 1px solid var(--gray-color);
+    margin-left: 24px;
+    border-radius: 5px;
+    color: var(--gray-color);
+    padding: 18px 16px;
+}
+
+.from label,.return label,.depart label,.passenger label {
+    position: absolute;
+    left: 50px;
+    top: -10px;
+    background-color: var(--white-color);
+    padding: 0 5px 0 5px;
+    color: var(--gray-color);
+}
+
+.return input{
+    width: 140px; 
+}
+
+.depart input{
+width: 322px;
+}
+
+.passenger input {
+width: 322px;
+margin-right: 24px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+    margin-right: 24px;
+    gap: 24px;
+}
+
+.btn1{
+    background-color: var(--white-color);
+    width: 142px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn2{
+    background-color: var(--primary-color);
+    width: 142px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        margin-top: 250px;
+    }
+    .booking{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+       
+    }
+}
